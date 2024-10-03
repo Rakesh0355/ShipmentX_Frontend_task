@@ -2,7 +2,8 @@ ShipmentX FrontEnd Part1 and Part2 Tasks:
 
 Candidate Name: Rakesh Kumar MOGASALA;
 email: rakeshkumarm2002@gmail.com;
- Skills: HTML, CSS, BootStrap, JavaScript.
+Skills: HTML, CSS, BootStrap, JavaScript.
+_________________________________________
 
 Tasks:
 • Part 1: Tasks: HTML & CSS
