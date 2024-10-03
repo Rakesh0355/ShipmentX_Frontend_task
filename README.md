@@ -1,6 +1,6 @@
 ShipmentX FrontEnd Part1 and Part2 Tasks:
 
-Candidate Name: Rakesh Kumar MOGASALA;
+Candidate Name: Rakesh Kumar Mogasala;
 email: rakeshkumarm2002@gmail.com;
 Skills: HTML, CSS, BootStrap, JavaScript.
 _________________________________________
@@ -8,9 +8,9 @@ _________________________________________
 Tasks:
 • Part 1: Tasks: HTML & CSS
 • Part 2: Tasks: Bootstrap & JavaScript
-
+_________________________________________
 Task 1: Semantic HTML Structure
-Objective: Create a webpage using semantic HTML elements like <header>, <nav>, <section>, <article>, <footer>, etc.
+Objective: Create a webpage using semantic HTML elements like <header>, <nav>, <section>, <article>, <footer>,etc.
 
 How to Run:
  Clone or download the files from the repository
