@@ -1,0 +1,136 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    margin: 2rem 0;
+    font-size: 36px;
+    color: #333;
+}
+
+/* Pricing Table Section */
+.pricing-table {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.plans-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+/* Plan Styles */
+.plan {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.plan h2 {
+    font-size: 24px;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.plan-description {
+    font-size: 16px;
+    color: #777;
+    margin-bottom: 1.5rem;
+}
+
+.price {
+    font-size: 36px;
+    margin: 1.5rem 0;
+    color: #f68b1e;
+}
+
+.price span {
+    font-size: 16px;
+    color: #888;
+}
+
+.features {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 2rem;
+}
+
+.features li {
+    margin-bottom: 0.5rem;
+    font-size: 16px;
+    color: #555;
+}
+
+/* Call-to-Action Button */
+.cta-button {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #f68b1e;
+}
+
+/* Popular Plan Highlight */
+.popular {
+    border: 2px solid #f68b1e;
+    transform: scale(1.05);
+    background-color: #fefaf5;
+}
+
+.popular h2 {
+    color: #f68b1e;
+}
+
+/* Hover Effect */
+.plan:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .plans-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .plan {
+        width: 100%;
+        max-width: 350px;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 28px;
+    }
+
+    .price {
+        font-size: 32px;
+    }
+}

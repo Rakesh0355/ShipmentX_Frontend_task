@@ -1,0 +1,77 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    max-width: 400px; 
+    margin: 50px auto; 
+    padding: 20px;
+    background-color: black; 
+    color: #fff; 
+    border-radius: 8px; 
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
+}
+
+h1 {
+    text-align: center; 
+    color: white; 
+}
+.input-group {
+    display: flex;
+    margin-bottom: 20px; 
+}
+
+#taskInput {
+    flex: 1; 
+    padding: 10px;
+    border: 1px solid #ddd; 
+    border-radius: 5px; 
+    font-size: 16px; 
+}
+
+#addTaskBtn {
+    padding: 10px 15px; 
+    border: none;
+    border-radius: 5px; 
+    background-color: #007bff; 
+    color: #fff; 
+    cursor: pointer; 
+    margin-left: 10px; 
+}
+
+#addTaskBtn:hover {
+    background-color: #0056b3; 
+}
+
+.task-list {
+    list-style: none;
+    padding: 0; 
+}
+
+.task-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    padding: 10px;
+    font-size: 20px;
+    border-bottom: 1px solid #ddd; 
+}
+
+li.completed .task-text {
+    text-decoration: line-through;
+    color: rgb(2, 150, 241);
+}
+
+
+ .remove-btn {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 5px; 
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.remove-btn:hover {
+    background-color: #c82333;
+}
